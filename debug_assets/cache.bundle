@@ -1,0 +1,7 @@
+// cached data
+const cache = {
+  "data": "Y3Rme2NhY2hlX2lzX3N1c3BpY2lvdXN9",
+  "hint": "session/qr_hint.png"
+};
+
+// nothing interesting here :)
