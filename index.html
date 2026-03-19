@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💩 best dev </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0a0c1b;
+            color: #e0e0f0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #2a2f4f;
+        }
+        .logo {
+            font-weight: bold;
+            color: #4affb5;
+        }
+        .nav-links a {
+            color: #a0a8ff;
+            margin-left: 1.5rem;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 2rem 0 1rem;
+        }
+        .hero {
+            margin: 3rem 0;
+        }
+        .skills, .commits {
+            margin: 3rem 0;
+        }
+        .skill-grid {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .skill-card {
+            background: #1a1e36;
+            padding: 1rem 1.5rem;
+            border-radius: 30px;
+            border: 1px solid #353d6b;
+        }
+        .commit-item {
+            background: #13172e;
+            padding: 0.8rem 1.2rem;
+            margin: 0.5rem 0;
+            border-radius: 30px;
+            font-family: monospace;
+            border: 1px solid #353d6b;
+        }
+        .testimonials {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin: 3rem 0;
+        }
+        .testimonial {
+            background: #13172e;
+            padding: 1.5rem;
+            border-radius: 20px;
+            flex: 1;
+            min-width: 200px;
+            border: 1px solid #4a3f7a;
+        }
+        .btn {
+            background: #4affb5;
+            color: #0a0c1b;
+            border: none;
+            padding: 0.8rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        .footer {
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 1px solid #2a2f4f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">// root@dev:~#</div>
+            <div class="nav-links">
+                <a href="#">work</a>
+                <a href="#">skills</a>
+                <a href="#">contact</a>
+            </div>
+        </nav>
+
+        <!-- герой с понтами -->
+        <section class="hero">
+            <h1>i break prod <br> so you have something to do on weekend</h1>
+            <p style="font-size: 1.2rem; color: #a0a8ff;">full-stack developer • 10x coffee drinker • senior copy-paste engineer</p>
+        </section>
+
+        <!-- скиллы (все врут) -->
+        <section class="skills">
+            <h2>// core stack</h2>
+            <div class="skill-grid">
+                <div class="skill-card">JavaScript/TypeScript</div>
+                <div class="skill-card">React/Next.js</div>
+                <div class="skill-card">Python/Django</div>
+                <div class="skill-card">Node.js</div>
+                <div class="skill-card">Docker</div>
+                <div class="skill-card">Kubernetes (kinda)</div>
+                <div class="skill-card">MongoDB</div>
+                <div class="skill-card">PostgreSQL</div>
+            </div>
+        </section>
+        <section class="commits">
+            <h2>// recent activity</h2>
+            <div class="commit-item">📝 fix: remove console.log (hopefully)</div>
+            <div class="commit-item">🔥 chore: delete .env from repo... again</div>
+            <div class="commit-item">🐛 wip: trying to fix what i broke at 3am</div>
+            <div class="commit-item">✨ feat: add more bugs for job security</div>
+            <div class="commit-item">🔒 temp: commit with credentials (will delete later)</div>
+        </section>
+
+        <!-- отзывы (прикол) -->
+        <section class="testimonials">
+            <div class="testimonial">
+                "he deployed on friday and went silent for 3 days"
+                <div style="margin-top: 1rem; color: #4affb5;">— CTO, probably</div>
+            </div>
+            <div class="testimonial">
+                "i found his .env file in public folder"
+                <div style="margin-top: 1rem; color: #4affb5;">— security guy, crying</div>
+            </div>
+            <div class="testimonial">
+                "code works? must be accident"
+                <div style="margin-top: 1rem; color: #4affb5;">— senior dev</div>
+            </div>
+        </section>
+        <div class="footer">
+            <button class="btn" onclick="alert('thanks for clicking. now go back to work.')">hire me (pls)</button>
+            <p style="margin-top: 2rem; opacity: 0.5;">© 2025 — all bugs are intentional features</p>
+        </div>
+    </div>
+
+    <!-- TODO: minify everything later -->
+    <!-- why is this still public -->
+
+    <script>
+        console.log("👋 sup, nerd. what are you looking for?");
+        console.log("💾 if you're inspecting, at least leave a star on github");
+        const siteData = {
+            author: "some dev",
+            version: "0.0.1-alpha.0.1.final(2).test",
+            note: "i should really clean this up"
+        };
+        document.querySelector('.btn').addEventListener('click', function() {
+            console.log('🚀 thanks for caring about my career');
+        });
+        
+    </script>
+    <script src="app.min.js"></script>
+</body>
+</html>

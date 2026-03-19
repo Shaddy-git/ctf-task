@@ -1,0 +1,13 @@
+things I touched:
+- audio (maybe too much??)
+- video
+- styles
+- cache
+
+TODO:
+- clean this folder
+- remove sensitive stuff (IMPORTANT)
+- stop being lazy
+
+
+Если вы еще не поняли это MISC-chain step by step

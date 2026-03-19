@@ -1,0 +1,131 @@
+/* who even reads comments anyway lol */
+
+/* reset default browser styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main background and text colors for the whole page */
+body {
+    background: #0a0c1b;
+    color: #e0e0f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+}
+
+/* center container with max width and padding */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* top navigation bar with logo and links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #2a2f4f;
+}
+
+/* green colored logo text on the left */
+.logo {
+    font-weight: bold;
+    color: #4affb5;
+}
+
+/* style for navigation links on the right */
+.nav-links a {
+    color: #a0a8ff;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+/* main heading style */
+h1 {
+    font-size: 3rem;
+    margin: 2rem 0 1rem;
+}
+
+/* hero section container */
+.hero {
+    margin: 3rem 0;
+}
+
+/* skills and commits sections share same spacing */
+.skills, .commits {
+    margin: 3rem 0;
+}
+
+/* flex grid for skill cards */
+.skill-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.flag {
+    display: none;
+}
+
+.prefix::after {
+  content: "final";
+}
+
+/* individual skill card styling */
+.skill-card {
+    background: #1a1e36;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    border: 1px solid #353d6b;
+}
+
+/* commit message item styling */
+.commit-item {
+    background: #13172e;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem 0;
+    border-radius: 30px;
+    font-family: monospace;
+    border: 1px solid #353d6b;
+}
+
+/* testimonials flex container */
+.testimonials {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+/* individual testimonial card */
+.testimonial {
+    background: #13172e;
+    padding: 1.5rem;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 200px;
+    border: 1px solid #4a3f7a;
+}
+
+/* call to action button styling */
+.btn {
+    background: #4affb5;
+    color: #0a0c1b;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* footer section with top border */
+.footer {
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid #2a2f4f;
+}
+
