@@ -71,7 +71,7 @@ h1 {
 }
 
 .prefix::after {
-  content: "final";
+  content: "flag";
 }
 
 /* individual skill card styling */
