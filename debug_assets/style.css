@@ -71,7 +71,7 @@ h1 {
 }
 
 .prefix::after {
-  content: "flag";
+  content: "mospoly";
 }
 
 /* individual skill card styling */
