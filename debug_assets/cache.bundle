@@ -1,7 +1,0 @@
-// cached data
-const cache = {
-  "data": "aHR0cHM6Ly9naXRodWIuY29tL1NoYWRkeS1naXQvY3RmLXRhc2suZ2l0",
-  "hint": "qr_hint.png"
-};
-
-// nothing interesting here :)
